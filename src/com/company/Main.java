@@ -6,9 +6,9 @@ public class Main {
 
     public static int bossHealth = 1000;
     public static int bossDamage = 100;
-    public static int[] heroesHealths = {250, 250, 250, 205};
-    public static int[] heroesDamage = {50, 30, 25, 0};
-    public static String[] heroesType = {"Warrior", "Wizzard", "Kinetic", "Medic"};
+    public static int[] heroesHealths = {250, 250, 250, 205, 500};
+    public static int[] heroesDamage = {50, 30, 25, 0, 50};
+    public static String[] heroesType = {"Warrior", "Wizzard", "Kinetic", "Medic", "Golem"};
 
     public static void main(String[] args) {
         printStatistic();
